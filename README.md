@@ -91,7 +91,7 @@ Twittie is a already responsive web app which let you share photos and your belo
 ![Chat Rooms](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331720/Chat_Room_bxzuxt.png)
 
 # Build Setup
-* Clone repository `https://github.com/HafidzN/Twittie.git`
+* Clone repository `https://github.com/HafidzN/Twittie_ReactJs-Twitter-Clone.git`
 * Run `npm install`
 * Run the development server  `npm start` then open up `localhost:3000`
 
