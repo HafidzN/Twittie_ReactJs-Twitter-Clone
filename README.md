@@ -1,68 +1,100 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TWITTIE
 
-## Available Scripts
+Twittie is a already responsive web app which let you share photos and your beloved moments with friend. It is made by using React Js + Context API + Firebase Firestore and proposed as a clone for [twitter.com](twitter.com). Kindly please watch out my [demo](https://www.youtube.com/watch?v=64P6-439q8A&t=21s).
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
+* Sign up
+* Login
+* Logout
+* Add tweet
+    * Add image
+    * Crop image (provided aspect ratio: original size, 16:9, 1:1)
+    * Add/Edit/Empty image's ALT text
+    * Add emoji
+    * Add text 
+* Delete tweet 
+* Like tweet
+* Unlike tweet
+* Comment tweet
+* Like comment
+* Unlike comment
+* Delete comment
+* Add tweet's thread comment 
+* Like  thread
+* Unlike thread comment
+* Delete thread comment 
+* Follow other user
+* Unfollow other user
+* View user's profile
+* View user's followings
+* View user's followed
+* View user's media
+* Add new chat rooms
+* Search available rooms
+* Leave Conversation
+* Send message 
+* Send image (just like tweet's facility such as Crop Image, add ALT Text)
+* Send emoji
+* Pop up image
+* Edit Profile
+    * Change profile theme/wallpaper
+    * Change user's profile photo
+    * Edit user's name
+    * Edit user's bio
+    * Edit Location
+    * Edit user's website
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Screenshots
+![Search](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331797/Search_zeclav.png)
+![Unfollow](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331790/Unfollow_yfpijr.png)
+![Trend](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331788/Trend_fo2pur.png)
 
-### `npm test`
+![Profile](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331779/Profile_dhtkpp.png)
+![Thread Comment](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331777/Thread_Comments_yypf3f.png)
+![Responsive Home](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331777/Responsive_Home_fqmxz9.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Followers and Following](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331773/Followers_And_Following_tqofga.png)
+![Add Emoji](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331773/Add_Snippet_zilzar.png)
+![Signup](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331771/Signup_pzezv3.png)
 
-### `npm run build`
+![Search Chat](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331770/Search_Chat_xdc3ch.png)
+![Feed Option](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331769/Feed_Option_obrumv.png)
+![Search and Add New Room](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331766/Search_User_Chat_nqb6oa.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Crop Photo](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331766/Crop_Photo_tfldfk.png)
+![Responsive Search and Add New Room](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331765/Search_User_Chat_Responsive_sbdqyh.png)
+![Search Room](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331764/Search_Chat_-_2_rg3tub.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Responsive Profile](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331762/Profile_Responsive_irxyzx.png)
+![Responsive Message](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331762/Message_Responsive_mefft6.png)
+![Add Photo](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331761/Add_Photo_cwbf4y.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Message Room](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331758/Message_-_2_Add_Photo_vyfx0v.png)
+![Message Room -2](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331754/Message_-_1_tcxgra.png)
+![Logout](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331752/Logout_ho3h4g.png)
 
-### `npm run eject`
+![Edit Wallpaper](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331749/Edit_Wallpaper_eoblwz.png)
+![Edit Profile](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331743/Edit_Profile_rbhger.png)
+![Leave Conversation](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331740/Leave_Conversation_pjjgh5.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Login](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331739/Login_eijfjr.png)
+![Add Comment](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331738/Add_Comment_vp2nga.png)
+![Home](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331737/Home_svr7po.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Comments](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331720/Comments_edtqbw.png)
+![Add ALT](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331719/Add_Alt_Photo_uiahqw.png)
+![Responsive Chat Rooms](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331712/Chat_Room_Responsive_ystb3f.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Edit Profile](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331732/Edit_Profile_-_1_kgevn2.png)
+![Chat Rooms](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1603331720/Chat_Room_bxzuxt.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Build Setup
+* Clone repository `https://github.com/HafidzN/Twittie.git`
+* Run `npm install`
+* Run the development server  `npm start` then open up `localhost:3000`
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright © 2020 by Hafidz Nugroho

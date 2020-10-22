@@ -1,0 +1,30 @@
+.statusPost:hover{
+    background: var(--twittie-background-2);
+}
+
+.statusPost__body{
+    padding: 0rem 1rem 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.statusPost__body--message{
+    padding-bottom: 1rem;
+}
+
+.statusPost__body>img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.statusPost__body--date{
+    color: var(--twittie-light);
+    line-height: 3rem;
+}
+
+.statusPost__footer{
+    border-top: 1px solid var(--twittie-background);
+    padding: 1rem 1rem 2rem 2rem;
+    border-bottom: 1px solid var(--twittie-background);
+}

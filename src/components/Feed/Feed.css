@@ -1,0 +1,174 @@
+.feed {
+    /* flex: 0.6; */
+    flex: 1;
+    border-right: 1px solid var(--twittie-background);
+    /* min-width: fit-content; */
+    overflow-y: scroll;
+
+    /* hide scrollbar for IE, edge, firefox */
+    -ms-overflow-style: none; /*ie, edge*/
+    scrollbar-width: none; /*firefox*/
+}
+
+.feed__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid var(--twittie-background);
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1px;
+}
+
+.feed__header-ava{
+    margin-right: 2rem;
+}
+
+.feed__header > h2 {
+    font-size: 2rem;
+    flex: 1;
+    font-weight: 800;
+}
+
+.feed__loader{
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center !important;
+}
+
+/* hide scrollbar for chrome, safari, and opera */
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.profile__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid var(--twittie-background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-right: 1px; */
+    padding: .7rem 1rem;
+}
+
+.forFollow{ 
+    border-bottom: 1px solid white;
+}
+
+.profile__backArrow{
+    padding: .65rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.profile__backArrow:hover{
+    background: var(--twittie-hover);
+}
+
+.profile__header .MuiSvgIcon-root{
+    font-size: 2.5rem;
+    color: var(--twittie-color);
+}
+
+.profile__title{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__title_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.profile__header h2{
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-right: 1rem !important;
+}
+
+.profile__header span{
+    font-size: 1.3rem;
+    color: var(--twittie-light);
+}
+
+
+
+
+.status__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid var(--twittie-background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-right: 1px; */
+    padding: .7rem 1rem;
+}
+
+
+.status__backArrow{
+    padding: .65rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.status__backArrow:hover{
+    background: var(--twittie-hover);
+}
+
+.status__header .MuiSvgIcon-root{
+    font-size: 2.5rem;
+    color: var(--twittie-color);
+}
+
+.status__title{
+    display: flex;
+    flex-direction: column;
+}
+
+.status__title_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.status__header h2{
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-right: 1rem !important;
+}
+
+.status__header span{
+    font-size: 1.3rem;
+    color: var(--twittie-light);
+}
+
+
+
+@media screen and (max-width: 1282px){
+    .feed {
+        flex: 1 !important;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .feed__header-ava{
+        display: none;
+    }
+}

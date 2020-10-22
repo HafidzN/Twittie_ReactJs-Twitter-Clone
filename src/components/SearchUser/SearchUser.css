@@ -1,0 +1,64 @@
+.searchUser{
+    width: 100%;
+}
+
+.searchUser__header{
+    background: var(--twittie-background);
+    padding-bottom: 1rem;
+    padding: 0 1rem 1rem;
+}
+.searchUser__header-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0 0rem 1rem;
+}
+
+.searchUser__header-search .MuiSvgIcon-root{
+    font-size: 2.5rem;
+    color: var(--twittie-color);
+}
+.searchUser__header-search>input{
+    flex: 1;
+    border: none;
+    outline: none;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    padding: 1rem 0 1rem 1rem;
+    background: var(--twittie-background);
+    color: var(--twittie-light);
+}
+
+.searchUser__header .MuiChip-clickable{
+    background: white;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+
+.searchUser__header .MuiChip-deleteIcon{
+    color: var(--twittie-color);
+}
+
+.searchUser__header .MuiChip-clickable:hover{
+    background: var(--twittie-background-2);
+}
+
+.MuiLinearProgress-colorPrimary {
+    background-color: white !important;
+}
+
+.MuiLinearProgress-barColorPrimary{
+    background-color: var(--twittie-color) !important;
+}
+
+.userrs__result{
+    width: 100%;
+}
+
+.searchUser__header .MuiChip-root{
+    margin-bottom: .4rem;
+}
+
+.chips{
+    padding-top: 1rem;
+}

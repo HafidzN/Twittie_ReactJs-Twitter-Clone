@@ -1,0 +1,46 @@
+.sidebarAccount__wrapper{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3rem;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.sidebarAccount__ava{
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.sidebarAccount__wrapper:hover{
+    background-color: #e8f5fe;
+}
+
+.sidebarAccount__userData{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sidebarAccount__userData h2:nth-child(2){
+    color: var(--twittie-light);
+    font-weight: 450;
+}
+
+.sidebarAccount__expandIcon{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.MuiPopover-paper  {
+    border-radius: 2rem !important;
+}
+
+.logoutBtn{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1282px){
+    .sidebarAccount__userData, .sidebarAccount__expandIcon {
+        display: none;
+    } 
+}

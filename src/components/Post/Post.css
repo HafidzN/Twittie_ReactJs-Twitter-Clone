@@ -1,0 +1,150 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twittie-background);
+    padding-bottom: 1rem;
+}
+
+.post:hover{
+    background: #F5F8FA;
+}
+
+.post__body{
+    flex: 1;
+    padding: 1rem;
+}
+
+.post__body> img{
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+    cursor: pointer;    
+}
+
+.post__headerDescription {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.post__headerDescription>p{
+    line-height: 2.1rem;
+}
+
+.post__headerText{
+    display: flex;
+    flex-direction: row;
+}
+
+.post__headerText>h3{
+    flex: 1;
+    font-size: 1.5rem;
+    margin: .8rem 0 1rem;
+}
+
+.post__badge{
+    font-size: 1.4rem !important;
+    color: var(--twittie-color);
+}
+
+.post__headerSpecial{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.post__avatar{
+    padding: 2rem;
+}
+
+.post__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.1rem 0 0 0;
+}
+
+.post__headerExpandIcon{
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.post__headerExpandIcon:hover{
+    background: #e8f5fe;
+    color: var(--twittie-color);
+}
+
+.post__expandList{
+    list-style: none;
+    padding: 0 0 0 0;
+    border-radius: 2rem;
+}
+
+.post__expandList li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3rem;   
+    padding: 1.2rem; 
+    background: white;
+    cursor: pointer;
+    min-width: 20rem;
+}
+
+.post__expandList li:first-child{
+    border-radius: 1rem 1rem 0 0 !important;
+}
+
+.post__expandList li:last-child{
+    border-radius: 0rem 0rem 1rem 1rem !important;
+}
+
+.post__expandList li:hover{
+    background: var(--twittie-background-2) !important;
+}
+
+.post__expandList li>h3{
+    font-weight: 400 !important;
+}
+
+.post__expandList>li>div{
+    margin-right: 1rem;
+}
+
+.post__expandList>li>div .MuiSvgIcon-root{
+    font-size: 1.8rem;
+    padding: .5rem 0rem 0rem 0rem;
+}
+
+.post__replyingTo {
+    font-size: 1.5rem;
+    color: var(--twittie-light);
+}
+
+.post__replyingTo>a{
+    color: var(--twittie-color)
+}
+
+.post__replyingTo>a:hover{
+    text-decoration: underline !important;
+}
+
+
+.delete{
+    color: red;
+}
+
+.tweetBox__input-actions .MuiPopover-paper{
+    box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 15px, rgba(101, 119, 134, 0.15) 0px 0px 3px 1px !important;
+}
+
+.post__statusPostHeader{
+    flex: 1;
+    margin-top: .5rem;
+    font-size: 1.4rem;
+} 
+
+.bottomWhited{
+    border-bottom: none;
+    padding-bottom: 0;
+}

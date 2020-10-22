@@ -1,0 +1,29 @@
+.footerIcon_wrapper{
+    flex: 1;
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: 400;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--twittie-light);
+    cursor: pointer;
+}
+
+.footerIcon_wrapper .MuiSvgIcon-root {
+    font-size: 1.8rem;
+    color: var(--twittie-light);
+    border-radius: 50%;
+}
+
+.footerIcon_wrapper .MuiSvgIcon-root:hover{
+    background-color: var(--twittie-background);
+}
+
+.footerIcon__counter{
+    margin-left: 1.5rem;
+}
+
+.liked .MuiSvgIcon-root{
+    color: var(--twittie-red) !important;
+}

@@ -1,0 +1,47 @@
+.userItemFollow--user__item{
+    padding: 1rem ;
+    display: flex ;
+    flex-direction: row ;
+    align-items: center ;
+    cursor: pointer ;
+}
+
+.userItemFollow--user__item:hover{
+    background: var(--twittie-background-2) ;
+}
+
+.userItemFollow--user__details{
+    margin-left: 1rem ;
+    flex: 1 ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+}
+
+.userItemFollow--user__details>span{
+    font-size: 1.1rem ;
+    color: var(--twittie-light) ;
+}
+
+
+
+
+.userItemFollow--user__item .MuiButton-root{
+    border: 1px solid var(--twittie-darker-color);
+    border-radius: 2rem;
+    color: var(--twittie-darker-color);
+    font-weight: 600;
+    text-transform: unset;
+    font-size: 1.2rem;
+    height: 2.8rem;
+    width: 7rem;
+}
+
+.userItemFollow--user__item  .MuiAvatar-img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.userItemFollow--user__item .MuiAvatar-root{
+    margin-right: 1.5rem;
+}

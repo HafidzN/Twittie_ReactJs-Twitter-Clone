@@ -1,0 +1,29 @@
+.user__item{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.nocursor{
+    cursor: unset !important;
+}
+
+.user__details{
+    margin-left: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.user__details>span{
+    font-size: 1.1rem;
+    color: var(--twittie-light);
+}
+
+.user__item .MuiSvgIcon-root{
+    padding: 1rem;
+    color: var(--twittie-color);
+}

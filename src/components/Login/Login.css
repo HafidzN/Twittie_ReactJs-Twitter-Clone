@@ -1,0 +1,191 @@
+.login__section{
+    position: relative;
+    min-height: 100vh;
+    background: var(--twittie-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+
+    width: 100vw; 
+}
+
+.login__section .login__container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    /* box-shadow: 0 1.5rem 5rem rgba(0,0,0,0.1); */
+    overflow: hidden;
+}
+
+.login__section .login__container .user{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.login__section .login__container .user .imgBc{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #ff0;
+    transition: .5s;
+}
+
+
+.login__section .login__container .user .imgBc img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.login__section .login__container .user .formBc{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+    transition: .5s;
+}
+
+.login__section .login__container .user .formBc form h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--twiitie-light);
+}
+
+.login__section .login__container .user .formBc form input{
+    position: relative;
+    width: -webkit-fill-available;
+    padding: 1rem 2rem;
+    background: var(--twittie-background-2);
+    color: #333;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: .8rem 0;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    border-radius: 2rem;
+}
+
+.login__section .login__container .user .formBc form button{
+    position: relative;
+    width: -webkit-fill-available;
+    padding: 1rem 2rem;
+    background: var(--twittie-background-2);
+    color: #333;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: .8rem 0;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    border-radius: 2rem;    
+
+
+    max-width: 10rem;
+    background: var(--twittie-color);
+    color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    transition: .5s;
+    border-radius: 2rem;
+
+
+}
+
+
+.login__section .login__container .user .formBc form input[type='submit']{
+    max-width: 10rem;
+    background: var(--twittie-color);
+    color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    transition: .5s;
+    border-radius: 2rem;
+}
+
+
+.login__section .login__container .user .formBc form .signup{
+    position: relative;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.login__section .login__container .user .formBc form .signup span{
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.login__section .login__container .signupBc {
+    pointer-events: none;
+}
+
+.login__section .login__container.active .signupBc {
+    pointer-events: initial;
+}
+
+.login__section .login__container .signupBc .formBc{
+    left: 100%;
+}
+
+.login__section .login__container.active .signupBc .formBc{
+    left: 0;
+}
+
+.login__section .login__container .signupBc .imgBc{
+    left: -100%;
+}
+
+.login__section .login__container.active .signupBc .imgBc{
+    left: 0;
+}
+
+.error{
+    position: relative;
+    width: -webkit-fill-available;
+    padding: 1rem 2rem;
+    color: red;
+    border: 0.2rem solid red;
+    outline: none;
+    box-shadow: none;
+    margin: .8rem 0;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    border-radius: 2rem;  
+}
+
+
+@media (max-width: 991px){
+    .login__section .login__container .imgBc{
+        max-width: 40rem;
+    }
+}

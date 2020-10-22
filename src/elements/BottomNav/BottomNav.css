@@ -1,0 +1,36 @@
+.bottomNav{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;    
+    z-index: 1000;
+    background: white;
+    padding: 1rem 0;    
+}
+
+.bottomNav>nav{
+    flex: 1;
+    display: flex;
+    flex-direction: row;    
+}
+
+.bottomNav>nav>a{
+    flex: 1;
+    text-align: center;
+}
+
+.bottomNav .MuiSvgIcon-root {
+    font-size: 2.5rem;
+    color: var(--twittie-light);
+}
+
+.bottomNav__active .MuiSvgIcon-root{
+    color: var(--twittie-darker-color) !important;
+}
+
+@media screen and (min-width: 501px){
+    .bottomNav{
+        display: none;
+    }
+}

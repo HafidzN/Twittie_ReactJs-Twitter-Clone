@@ -1,0 +1,29 @@
+.widgets__widgetContainerforPhotos{
+    margin: .7rem 1rem 1.5rem 2rem;
+    /* background-color: var(--twittie-background-2); */
+    border-radius: 2rem;
+
+    display: grid;
+    grid: repeat(2, 8vw) / auto-flow;
+}
+
+.wcfpRow{
+    display: grid;
+    grid: repeat(1, 8vw) / auto-flow;  
+}
+
+.wcfpRow > .square {
+    margin: 2px;
+    background-color: var(--twittie-background);
+    background-size: cover;    
+}
+
+.bcA{ border-radius: 2rem 0 0 0 }
+.bcB{ border-radius: 0 2rem 0 0 }
+.bcC{ border-radius: 0 0 2rem 0 }
+.bcD{ border-radius: 0 0 0 2rem }
+  
+.square img{
+    height: 100%;
+    object-fit: cover;
+}

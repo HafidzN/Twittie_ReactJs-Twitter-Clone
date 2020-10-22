@@ -1,0 +1,171 @@
+.userProfile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.userProfile__theme{
+    height: 20rem;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: var(--twittie-background-2);
+}
+
+.photoWrapper{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    transform: translate(2rem, 13rem);
+    background: var(--twittie-background);
+}
+
+.photoWrapper>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.infoWrapper{
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.userProfile__actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--twittie-color);
+    margin-bottom: 3.9rem;
+}
+
+.userProfile__actions>div{
+    padding: .5rem 1.5rem;
+    border: 1px solid var(--twittie-color);
+    border-radius: 2rem;
+}
+
+.userProfile__actions>div:hover{
+    background: var(--twittie-hover);
+    cursor: pointer;
+}
+
+.moreWrapper{
+    margin-left: auto;
+    padding: .7rem .8rem .3rem !important;
+}
+
+.mailWrapper{
+    padding: .5rem .8rem !important;
+    margin-left: 1rem !important;
+}
+
+.followWrapper{
+    margin-left: 1rem !important;
+}
+
+.infoWrapper>h2{
+    font-size: 1.9rem !important;
+    font-weight: 800;
+}
+
+.infoWrapper>span{
+    font-size: 1.5rem;
+    color: var(--twittie-light);
+}
+
+.infoWrapper>p{
+    font-size: 1.5rem;
+    margin: .8rem 0;
+}
+
+.bioInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin-left: -.4rem;
+}
+
+.bioInfo>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--twittie-light);
+    margin-right: 2rem;
+}
+
+.bioInfo>div .MuiSvgIcon-root{
+    margin-right: .5rem;
+    font-size: 2rem !important;
+}
+
+.countInfo{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.countInfo span{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 650;
+    margin-right: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.countInfo span>p{
+    color: var(--twittie-light);
+    font-weight: normal;
+    margin-left: .5rem;
+}
+
+.countInfo span:hover{
+    border-bottom: 1px solid var(--twittie-light);
+}
+
+.followedInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0 ;
+    flex: 1;
+}
+
+.followedInfo .MuiAvatar-root{
+    width: 4rem;
+    height: 4rem;
+    margin-right: .5rem;
+}
+
+.followedInfo>span{
+    color: var(--twittie-light);
+    font-size: 1.5rem;
+}
+
+.blued{
+    color: var(--twittie-color) !important;
+}
+
+.themeBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-between;
+}
+
+.themeSpinner{
+    padding:  0 ;
+    font-size: 2rem;
+    color: var(--twittie-color);
+    margin-left: auto;
+}

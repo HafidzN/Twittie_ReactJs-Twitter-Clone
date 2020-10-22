@@ -1,0 +1,226 @@
+.chat{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border-right:1px solid var(--twittie-background);
+}
+
+.chat__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid var(--twittie-background);
+    padding: 1rem 2rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 3.8rem;
+}
+
+.chat__header>h2{
+    font-size: 2rem;
+    flex: 1;
+    font-weight: 800;
+    margin-right:2rem
+}
+
+.chat__header-ava{
+    margin-right: 2rem;
+}
+
+.chat__header-ava .MuiAvatar-root{
+    margin: -2rem 0rem -2rem 0rem;
+}
+
+.chat .MuiSvgIcon-root{
+    font-size: 2.5rem;
+    color: var(--twittie-color);
+}
+
+.chat__backArrow{
+    padding: .65rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.chat__backArrow:hover{
+    background: var(--twittie-background-2);
+}
+
+.chat__message {
+    position: relative;
+    font-size: 1.6rem;
+    padding: .5rem;
+    background-color: var(--twittie-background-2);
+    border-radius: 0 2rem 2rem 0;
+    width: fit-content;
+    margin-bottom: .3rem;
+    max-width: 74%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__message img{
+    border-radius: 0 2rem 2rem 0;
+    object-fit: cover;
+    max-width: 42.5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.chat__message>span{
+    padding: 0.5rem 0;
+    min-width: 2.3rem;
+}
+
+.chat__item{
+    margin-bottom: 1rem;
+    word-break: break-all
+}
+
+.chat__receiver{
+    margin-left: auto;
+    background-color: var(--twittie-color);
+    color: white;
+    border-radius: 2rem .2rem .2rem 2rem;
+}
+
+.chat__receiver>img{
+    border-radius: 2rem .2rem .2rem 2rem !important;
+}
+
+.chat__receiver span{
+    text-align: end;
+}
+
+.chat__timestamp{
+    font-size: xx-small;
+    text-align: end;
+}
+
+.lefted{
+    text-align: start !important ;
+}
+
+.chat__name {
+    position: absolute;
+    top: -1.5rem;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chat__headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 10rem;
+}
+
+.chat__body{
+    flex: 1;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 1rem;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /*ie, edge*/
+    scrollbar-width: none; /*firefox*/
+}
+
+.chat__body::-webkit-scrollbar{
+    display: none;
+}
+
+.chat__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.2rem;
+    border-top: 1px solid var(--twittie-background);
+    padding: 0 1rem 0 .6rem;
+}
+
+.chat__footer-ImageBox{
+    position: absolute;
+    bottom: 7rem;
+    border-radius: 2rem;
+    /* box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 15px, rgba(101, 119, 134, 0.15) 0px 0px 3px 1px !important; */
+    width: 19rem;
+    height: 23rem;
+    background: var(--twittie-background);
+}
+
+.chat__footer-ImageBox>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.chat__footer > form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.chat__footer>form>input{
+    flex: 1 1;
+    padding: 0.5rem 1rem;
+    /* margin: 0 0 0 1rem; */
+    border: .2rem solid var(--twittie-color);
+    line-height: 3rem;
+    font-size: 1.5rem;
+    border-right: none;
+    outline: none;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.chat__footer>form>button{
+    display: none;
+}
+
+.chat__footer .MuiSvgIcon-root{
+    font-size: 3rem !important;
+    cursor: pointer;
+}
+
+.chat__footer-emowrapper {
+    padding: .4rem 1rem .3rem 0rem;
+    border: .2rem solid var(--twittie-color);
+    border-left: none;
+    border-radius: 0 2rem 2rem 0;
+    margin-left: -.1rem;
+    margin-right: 1rem;
+}
+
+.readyBtn{
+    color: rgba(29,161,242,1.00) !important;
+}
+
+.spinnerSpan{
+    font-size: 2rem;
+    color: var(--twittie-color);
+}
+
+
+@media screen and (max-width: 500px){
+    .chat{
+        flex: 1;
+        height: calc(100vh - 4.5rem);
+    }
+    .chat__footer>form>input{
+        width: calc(100% - 1rem );
+    }
+
+    .chat__footer-ImageBox {
+        bottom: 11rem;
+    }
+}
+
+@media screen and (min-width: 914px){
+    .chat__backArrow{
+        display: none;
+    }
+}

@@ -1,0 +1,41 @@
+.widgets__trendsContainer{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+.widgets__trendsContainer>li{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--twittie-background);
+}
+
+.widgets__trendsContainer>li{
+    border-bottom:none;
+}
+
+.widgets__trendsContainer li div{
+    padding: 0.2rem 0.2rem;
+    margin-left: -.2rem;
+}
+
+.widgets__trendsContainer li div.popular{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    color: var(--twittie-light);
+}
+
+.widgets__trendsContainer li div.hashtag{
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.widgets__trendsContainer li div.tweetNumber{
+    font-size: 1.3rem;
+    color: var(--twittie-light);
+}

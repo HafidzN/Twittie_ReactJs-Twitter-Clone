@@ -1,0 +1,147 @@
+.conversationInfo{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border-right:1px solid var(--twittie-background);
+}
+
+.conversationInfo__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid var(--twittie-background);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.conversationInfo__header>h2{
+    font-size: 2rem;
+    flex: 1;
+    font-weight: 800;
+    margin-right:2rem
+}
+
+.conversationInfo__header--back{
+    padding: .65rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.conversationInfo__header--back:hover{
+    background: var(--twittie-background-2);
+}
+
+.conversationInfo__header .MuiSvgIcon-root {
+    font-size: 2.5rem !important;
+    color: var(--twittie-color);
+}
+
+.conversationInfo--user__item{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 10px solid var(--twittie-background);
+}
+
+.conversationInfo--user__item:hover{
+    background: var(--twittie-background-2);
+}
+
+.conversationInfo--user__details{
+    margin-left: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conversationInfo--user__details>span{
+    font-size: 1.1rem;
+    color: var(--twittie-light);
+}
+
+.conversationInfo .MuiButton-root{
+    text-transform: unset;
+    font-size: 1.3rem;
+    color: var(--twittie-color) !important;
+    border-radius: 2rem;
+    border: 1px solid var(--twittie-color);
+    padding: 0rem 1rem ;
+    max-height: 2.7rem;
+}
+
+.conversationInfo .MuiButton-root:hover{
+    background: var(--twittie-hover);
+}
+
+.notifications{
+    border-top: 10px solid var(--twittie-background);
+}
+.notifications>h2{
+    font-size: 1.6rem;
+    flex: 1;
+    font-weight: 800;
+    padding:  1rem;
+    border-bottom: 1px solid var(--twittie-background);
+}
+
+.mute{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    border-bottom: 10px solid var(--twittie-background);
+    justify-content: space-between ;    
+}
+
+.notifications .MuiSwitch-root{
+    margin: 0.3rem -1rem 0.3rem 0;
+}
+
+.notifications .MuiSwitch-input{
+    left: -100%;
+}
+
+.notifications .MuiSwitch-colorPrimary.Mui-checked{
+    color: var(--twittie-darker-color);
+}
+
+.notifications .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track{
+    background-color: var(--twittie-color) !important;
+}
+
+.userActions{
+    padding: 0;
+    list-style-type: none;
+}
+
+.userActions>li{
+    font-size: 1.3rem !important;
+    text-align: center;
+    font-weight: 450;
+    padding: 1rem;
+    color: var(--twittie-color);
+    cursor: pointer;
+    border-top: 1px solid var(--twittie-background);
+}
+
+.userActions>li:hover{
+    background: var(--twittie-hover);
+}
+
+.red{
+    color: var(--twittie-red) !important;
+}
+
+.red:hover{
+    background: #e0245e0d !important;
+}

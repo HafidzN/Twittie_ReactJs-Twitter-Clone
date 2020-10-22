@@ -1,0 +1,45 @@
+.tabbarMenu .MuiTabs-root{
+    background: white;
+    text-transform: unset !important;
+}
+
+.tabbarMenu .MuiSvgIcon-root{
+    font-size: 2.3rem;
+}
+.tabbarMenu .MuiTab-fullWidth:hover {
+    background: #e8f5fe;
+}
+
+.tabbarMenu .MuiTab-wrapper{
+    font-size: 1.5rem;
+}
+
+.tabbarMenu .MuiPaper-elevation4{
+    box-shadow: none;
+}
+
+.tabbarMenu .MuiTab-textColorPrimary.Mui-selected{
+    color: var(--twittie-color);
+}
+
+.tabbarMenu .PrivateTabIndicator-root{
+    background-color: var(--twittie-color);
+}
+
+.tabbarMenu .MuiTabs-indicator{
+    background-color: var(--twittie-color);
+}
+
+.tabbarMenu .react-swipeable-view-container .MuiBox-root-6{
+    padding: 1rem;
+}
+
+.tabbarMenu .MuiBox-root {
+    padding: 0rem;
+    overflow: hidden;
+}
+
+.tabbarMenu .MuiTab-wrapper {
+    font-size: 1.5rem;
+    text-transform: none;
+}

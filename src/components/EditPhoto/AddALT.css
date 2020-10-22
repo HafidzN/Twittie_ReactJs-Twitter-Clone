@@ -1,0 +1,35 @@
+.alt__wrapper{
+    display: flex;
+    flex-flow: column;
+    height: 100%
+}
+
+.alt__wrapper .alt__imageContainer{
+    flex: 1 1 auto;
+}
+
+.alt__imageContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 27em;
+}
+
+.alt__addDescription {
+    padding-top: 2rem;
+}
+
+.alt__addDescription h2{
+    color: var(--twittie-color);
+    margin-left: 1rem;
+}
+
+.alt__addDescription textarea{
+    margin-left: 1rem;
+    border: none;
+    width: 100%;
+    font-size: 1.4rem;
+    outline: none;
+    padding: 0;
+}
+

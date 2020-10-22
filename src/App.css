@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+    --twittie-color: #50b7f5;
+    --twittie-darker-color: #1da1f2;
+    --twittie-background: #e6ecf0;
+    --twittie-background-2: #f5f8fa;
+    --twittie-light: rgb(101, 119,134);
+    --twittie-hover: #e8f5fe;
+    --twittie-hover-2: #ebebeb;
+    --twittie-red: rgb(224, 36, 94); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app{
+    display: flex;
+    height: auto;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.app__mainContent{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-responsive-modal-modal{
+    top: 4.5vh;
+    width: 85vh;
+    height: fit-content;
+    min-height: 85vh;
+    border-radius: 2rem;
+    padding: 0;
+}
+
+.react-responsive-modal-closeButton{
+    display: none;
+}
+
+.MuiCircularProgress-colorPrimary{
+    color: var(--twittie-color) !important;
+}
+
+.app__main{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.MuiPopover-paper{
+    box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 15px, rgba(101, 119, 134, 0.15) 0px 0px 3px 1px !important;
+}
+
+.emoji-picker-react input.emoji-search{
+    border: 2px solid var(--twittie-color) !important;
+    border-radius: 3rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.tabbarMenu .react-swipeable-view-container .MuiBox-root-6 {
+    padding: 0;
+}
+
+.addMoreLeftPadd{
+    padding-left: 2rem;
+}
+
+
+@media screen and (max-width: 500px){
+    .app__mainContent{
+        height: calc(100vh - 4.5rem);        
+    }
 }

@@ -1,0 +1,371 @@
+.modal__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+.backIcon{
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: var(--twittie-color);
+}
+
+.backIcon:hover{
+    background-color: #e8f5fe;   
+}
+
+.modal__header>h2{
+    flex: 1;
+    margin-left: 1rem;
+    font-size: 1.9rem;
+}
+
+.modal__header .MuiButton-root{
+    background-color: var(--twittie-color);
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.4rem;
+    font-size: 700;
+    text-transform: capitalize;
+}
+
+.modal__header .MuiButton-root:hover{
+   background-color: #3286b9;
+}
+
+.makeStyles-modal-1 div{
+    outline: none;
+}
+
+.modalImage__imageWrapper{
+    border-radius: 2rem;
+}
+.modalImage__imageWrapper img{
+   height: 81.4vh;
+   border-radius: 2rem;
+}
+/* .rounded{
+    border-radius: 50% !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.makeStyles-modal-1 div{
+    outline: none;
+}
+.makeStyles-modal-2 div{
+    outline: none;
+}
+.makeStyles-modal-3 div{
+    outline: none;
+}
+.makeStyles-modal-4 div{
+    outline: none;
+}
+.makeStyles-modal-5 div{
+    outline: none;
+}
+.makeStyles-modal-6 div{
+    outline: none;
+}
+.makeStyles-modal-7 div{
+    outline: none;
+}
+.makeStyles-modal-8 div{
+    outline: none;
+}
+.makeStyles-modal-9 div{
+    outline: none;
+}
+.makeStyles-modal-10 div{
+    outline: none;
+}
+.makeStyles-modal-11 div{
+    outline: none;
+}
+.makeStyles-modal-12 div{
+    outline: none;
+}
+.makeStyles-modal-13 div{
+    outline: none;
+}
+.makeStyles-modal-14 div{
+    outline: none;
+}
+.makeStyles-modal-15 div{
+    outline: none;
+}
+.makeStyles-modal-16 div{
+    outline: none;
+}
+.makeStyles-modal-17 div{
+    outline: none;
+}
+.makeStyles-modal-18 div{
+    outline: none;
+}
+.makeStyles-modal-19 div{
+    outline: none;
+}
+.makeStyles-modal-20 div{
+    outline: none;
+}
+.makeStyles-modal-21 div{
+    outline: none;
+}
+.makeStyles-modal-22 div{
+    outline: none;
+}
+.makeStyles-modal-23 div{
+    outline: none;
+}
+.makeStyles-modal-24 div{
+    outline: none;
+}
+.makeStyles-modal-25 div{
+    outline: none;
+}
+.makeStyles-modal-26 div{
+    outline: none;
+}
+.makeStyles-modal-27 div{
+    outline: none;
+}
+.makeStyles-modal-28 div{
+    outline: none;
+}
+.makeStyles-modal-29 div{
+    outline: none;
+}
+.makeStyles-modal-30 div{
+    outline: none;
+}
+.makeStyles-modal-31 div{
+    outline: none;
+}
+.makeStyles-modal-32 div{
+    outline: none;
+}
+.makeStyles-modal-33 div{
+    outline: none;
+}
+.makeStyles-modal-34 div{
+    outline: none;
+}
+.makeStyles-modal-35 div{
+    outline: none;
+}
+.makeStyles-modal-36 div{
+    outline: none;
+}
+.makeStyles-modal-37 div{
+    outline: none;
+}
+.makeStyles-modal-38 div{
+    outline: none;
+}
+.makeStyles-modal-39 div{
+    outline: none;
+}
+.makeStyles-modal-40 div{
+    outline: none;
+}
+.makeStyles-modal-41 div{
+    outline: none;
+}
+.makeStyles-modal-42 div{
+    outline: none;
+}
+.makeStyles-modal-43 div{
+    outline: none;
+}
+.makeStyles-modal-44 div{
+    outline: none;
+}
+.makeStyles-modal-45 div{
+    outline: none;
+}
+.makeStyles-modal-46 div{
+    outline: none;
+}
+.makeStyles-modal-47 div{
+    outline: none;
+}
+.makeStyles-modal-48 div{
+    outline: none;
+}
+.makeStyles-modal-49 div{
+    outline: none;
+}
+.makeStyles-modal-51 div{
+    outline: none;
+}
+.makeStyles-modal-52 div{
+    outline: none;
+}
+.makeStyles-modal-53 div{
+    outline: none;
+}
+.makeStyles-modal-54 div{
+    outline: none;
+}
+.makeStyles-modal-55 div{
+    outline: none;
+}
+.makeStyles-modal-56 div{
+    outline: none;
+}
+.makeStyles-modal-57 div{
+    outline: none;
+}
+.makeStyles-modal-58 div{
+    outline: none;
+}
+.makeStyles-modal-59 div{
+    outline: none;
+}
+.makeStyles-modal-60 div{
+    outline: none;
+}
+.makeStyles-modal-61 div{
+    outline: none;
+}
+.makeStyles-modal-62 div{
+    outline: none;
+}
+.makeStyles-modal-63 div{
+    outline: none;
+}
+.makeStyles-modal-64 div{
+    outline: none;
+}
+.makeStyles-modal-65 div{
+    outline: none;
+}
+.makeStyles-modal-66 div{
+    outline: none;
+}
+.makeStyles-modal-67 div{
+    outline: none;
+}
+.makeStyles-modal-68 div{
+    outline: none;
+}
+.makeStyles-modal-69 div{
+    outline: none;
+}
+.makeStyles-modal-70 div{
+    outline: none;
+}
+.makeStyles-modal-71 div{
+    outline: none;
+}
+.makeStyles-modal-72 div{
+    outline: none;
+}
+.makeStyles-modal-73 div{
+    outline: none;
+}
+.makeStyles-modal-74 div{
+    outline: none;
+}
+.makeStyles-modal-75 div{
+    outline: none;
+}
+.makeStyles-modal-76 div{
+    outline: none;
+}
+.makeStyles-modal-77 div{
+    outline: none;
+}
+.makeStyles-modal-78 div{
+    outline: none;
+}
+.makeStyles-modal-79 div{
+    outline: none;
+}
+.makeStyles-modal-80 div{
+    outline: none;
+}
+.makeStyles-modal-81 div{
+    outline: none;
+}
+.makeStyles-modal-82 div{
+    outline: none;
+}
+.makeStyles-modal-83 div{
+    outline: none;
+}
+.makeStyles-modal-84 div{
+    outline: none;
+}
+.makeStyles-modal-85 div{
+    outline: none;
+}
+.makeStyles-modal-86 div{
+    outline: none;
+}
+.makeStyles-modal-87 div{
+    outline: none;
+}
+.makeStyles-modal-88 div{
+    outline: none;
+}
+.makeStyles-modal-89 div{
+    outline: none;
+}
+.makeStyles-modal-90 div{
+    outline: none;
+}
+.makeStyles-modal-91 div{
+    outline: none;
+}
+.makeStyles-modal-92 div{
+    outline: none;
+}
+.makeStyles-modal-93 div{
+    outline: none;
+}
+.makeStyles-modal-94 div{
+    outline: none;
+}
+.makeStyles-modal-95 div{
+    outline: none;
+}
+.makeStyles-modal-96 div{
+    outline: none;
+}
+.makeStyles-modal-97 div{
+    outline: none;
+}
+.makeStyles-modal-98 div{
+    outline: none;
+}
+.makeStyles-modal-99 div{
+    outline: none;
+}
+.makeStyles-modal-100 div{
+    outline: none;
+}

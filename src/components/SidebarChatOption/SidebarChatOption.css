@@ -1,0 +1,51 @@
+.sidebarChatOption{
+    display: flex;
+    /* flex-direction: row; */
+    padding: 1.5rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+a{
+    text-decoration: none!important;
+    color: black;
+}
+
+.sidebarChatOption:hover{
+    background-color: var(--twittie-background-2)
+}
+
+.sidebarChatOption__info > h2 {
+    font-size: 1.5rem;
+}
+
+.sidebarChatOption__info{
+    font-size: 1.5rem;
+    flex: 1;
+    margin-left: 1.5rem;
+}
+
+.sidebarChatOption__info span{
+    color: var(--twittie-light);
+    font-weight: 400;
+    margin-left: .5rem;
+}
+.sidebarChatOption__info >p{
+    color: var(--twittie-light)
+}
+
+.sidebarChatOption__date{
+    font-size: 1.5rem;    
+    padding-right: .1rem;
+    color: var(--twittie-light)
+}
+
+.sidebarChatOption .MuiAvatar-root{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.active_chat{
+    border-right: 2px solid var(--twittie-color);
+}
